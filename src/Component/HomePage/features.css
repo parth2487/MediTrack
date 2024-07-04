@@ -1,0 +1,35 @@
+.sop{
+	color: #3065cc;
+	 font-family: "Noto Sans", sans-serif;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card {
+  opacity: 0;
+  animation: fadeIn 0.5s forwards;
+}
+
+.card:nth-child(1) {
+  animation-delay: 0.3s;
+}
+
+.card:nth-child(2) {
+  animation-delay: 0.8s;
+}
+
+.card:nth-child(3) {
+  animation-delay: 0.12s;
+}
+
+/* Optional: If you want to style the buttons or other elements */
+

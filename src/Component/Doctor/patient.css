@@ -1,0 +1,25 @@
+.okok{
+	width: 1300px;
+	}
+.ppp{
+	flex: 1;
+	overflow-y: auto;
+	scrollbar-width: none;
+}
+
+
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+}
